@@ -1,23 +1,15 @@
 # Python
 __pycache__/
-*.py[cod]
-*.so
-.Python
+*.pyc
+*.pyo
+*.pyd
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
-
-# Data files
-*.csv
-*.pkl
-*.h5
-*.json
 
 # Environment
-.env
-venv/
 .env/
+venv/
 
 # IDE
 .vscode/
@@ -25,8 +17,7 @@ venv/
 
 # System
 .DS_Store
-Thumbs.db
 
 # Outputs (keep structure but ignore content)
-outputs/**/*
-!outputs/figures/.gitkeep
+outputs/*
+!outputs/.gitkeep
