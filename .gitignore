@@ -18,6 +18,6 @@ venv/
 # System
 .DS_Store
 
-# Outputs (keep structure but ignore content)
+# Outputs 
 outputs/*
 !outputs/.gitkeep
