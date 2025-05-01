@@ -1,4 +1,4 @@
-# data_loading.py
+# data_loader.py
 """Module for loading and processing RICO dataset mobile UI screens"""
 
 # Standard Library Imports
