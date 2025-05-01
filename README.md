@@ -26,3 +26,28 @@ This repository contains the implementation and analysis for our research on red
 1. Download models:
    ```bash
    python -m sentence_transformers download all-MiniLM-L6-v2
+
+## References
+
+1. **RICO Dataset**  
+   ```bibtex
+   @article{deka2017rico,
+     author    = {Deka, Biplab and Huang, Zifeng and Franzen, Carl and Hibschman, John and Li, Yang and Nichols, Jeffrey and Kumar, Ranjitha},
+     title     = {Rico: A Mobile App Dataset for Building Data-driven Design Applications},
+     booktitle = {Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology (UIST)},
+     year      = {2017},
+     pages     = {845--854},
+     publisher = {ACM},
+     doi       = {10.1145/3126594.3126651}
+   }
+
+2. **Annotated RICO Dataset**
+   ```bibtex
+   @article{sunkara2022,
+     author    = {Srinivas Sunkara and Maria Wang and Lijuan Liu and Gilles Baechler and Yu-Chung Hsiao and Jindong Chen and Abhanshu Sharma and James Stout},
+     title     = {Towards Better Semantic Understanding of Mobile Interfaces},
+     journal   = {CoRR},
+     volume    = {abs/2210.02663},
+     year      = {2022},
+     url       = {https://arxiv.org/abs/2210.02663}
+   }
